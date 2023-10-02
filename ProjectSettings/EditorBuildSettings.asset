@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game_scenes/0. Main menu.unity
+    guid: 44ed44c158b46f546ad691e84fd72429
+  - enabled: 1
+    path: Assets/Scenes/Game_scenes/1. Game hall.unity
+    guid: a5310f569ca888f489ee48f73a5425ac
+  - enabled: 1
+    path: Assets/Scenes/Game_scenes/2. Levelselect.unity
+    guid: 503711517a4065d439cded0469b2e511
+  - enabled: 1
+    path: Assets/Scenes/Universal_scenes/Settings.unity
+    guid: 72ab2d0cf35532547a4da50036b7bbbc
+  - enabled: 1
+    path: Assets/Scenes/Game_scenes/CharacterSelection.unity
+    guid: ae4062df2da498b47ac095491b555f00
+  - enabled: 1
+    path: Assets/Scenes/Level_scenes/A1_battle_scene.unity
+    guid: 8a2ed2486f5d68b49af0f80fbc4b373a
+  - enabled: 1
+    path: Assets/Scenes/Universal_scenes/Victory.unity
+    guid: 8c6ad86ac94c6ed40819de98a8e64475
+  - enabled: 1
+    path: Assets/Scenes/Universal_scenes/GameOver.unity
+    guid: f959f6a7b0e5fc647b52a3293943ee85
+  - enabled: 1
+    path: Assets/Scenes/Credit_scenes/Credit.unity
+    guid: bfbe8efd0a6f3b3469f5c255a5ac017a
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: c10b3d26e1dabe94db0659d49b3d24f1, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 663a2902f8e17df42ae9127fd8ea45c6, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 5d2a190ad00eeac4a90ccfd6820fc1f8, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b00334576644946bd211d4e752c371, type: 3}
+  m_Name: Enemy4
+  m_EditorClassIdentifier: 
+  actorName: Enemy3
+  description: testing new enemy 3
+  health: 60
+  maxHealth: 60
+  power: 4
+  actor: {fileID: 2287915982278605892, guid: e6040cc372c3d6243b6f700a7cd624da, type: 3}
+  actorSprite: {fileID: 0}

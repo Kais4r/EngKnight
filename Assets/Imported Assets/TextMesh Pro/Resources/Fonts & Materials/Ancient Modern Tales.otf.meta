@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e575aa5126136d240b7f2679d35fc6f2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Ancient Modern Tales
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6a40d19aa7160fb4e8ef34c89b538685, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

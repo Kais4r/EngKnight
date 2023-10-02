@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: 4fd17bcb5ffd53f4a92799e18c978f82
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: B_witch_Frame_0
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 193
+      height: 193
+    spriteID: b7192862150c59f48b14a1a7dfff211a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: B_witch_Frame_1
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 193
+      height: 193
+    spriteID: ca2ae2973c61fe148ba83d067ece07e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: B_witch_Frame_2
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 406
+      width: 193
+      height: 193
+    spriteID: 93aebeea5c7383547aa9018562c7c35b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 406}
+  - name: B_witch_Frame_3
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 607
+      width: 193
+      height: 193
+    spriteID: be8b287f9512a4b449e09450b08edf46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 607}
+  - name: B_witch_Frame_4
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 808
+      width: 193
+      height: 193
+    spriteID: ef71be854ae0d9f439a5d792223c5acb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 808}
+  - name: B_witch_Frame_5
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1009
+      width: 193
+      height: 193
+    spriteID: 1516e97548d121b4e9560da5a4d6f1d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1009}
+  - name: B_witch_Frame_6
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1210
+      width: 193
+      height: 193
+    spriteID: 83e86ce12dd15f747b762fcc955b767b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1210}
+  - name: B_witch_Frame_7
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1411
+      width: 193
+      height: 193
+    spriteID: b50f2fe83f8f3744a9810518d15d15b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1411}
+  - name: B_witch_Frame_8
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1612
+      width: 193
+      height: 193
+    spriteID: 8b1d4710fec992f4b8ceb311fd1dfe73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1612}
+  - name: B_witch_Frame_9
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1813
+      width: 193
+      height: 193
+    spriteID: 8ccd7093b2acb2045a4083d389d88bc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1813}
+  - name: B_witch_Frame_10
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 4
+      width: 193
+      height: 193
+    spriteID: f0b0e5acbf1d11547beb8c716e6d7160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 4}
+  - name: B_witch_Frame_11
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 205
+      width: 193
+      height: 193
+    spriteID: bd3539d70e4634d41a56377d761afa87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 205}
+  - name: B_witch_Frame_12
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 406
+      width: 193
+      height: 193
+    spriteID: c97c22fd4c0b31349947b64b0ae40eca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 406}
+  - name: B_witch_Frame_13
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 607
+      width: 193
+      height: 193
+    spriteID: c7911aa5a44a5214cac167e4ea36003b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 607}
+  - name: B_witch_Frame_14
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 808
+      width: 193
+      height: 193
+    spriteID: 1821017aeadb83046a4c809409ac3f53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 808}
+  - name: B_witch_Frame_15
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 1009
+      width: 193
+      height: 193
+    spriteID: 290edeef6ecfd784ca092698dcb26283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 1009}
+  - name: B_witch_Frame_16
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 1210
+      width: 193
+      height: 193
+    spriteID: c6a60d64bbbbda543bb1bc1f59ce6106
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 1210}
+  - name: B_witch_Frame_17
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 1411
+      width: 193
+      height: 193
+    spriteID: e7b1383a0434745449811ce2a9f4861c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 1411}
+  - name: B_witch_Frame_18
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 1612
+      width: 193
+      height: 193
+    spriteID: 57316c3ac48e71448aa22f67ec0b32a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 1612}
+  - name: B_witch_Frame_19
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 1813
+      width: 193
+      height: 193
+    spriteID: 3d4d348115f493a479d335cb706ae38e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 1813}
+  - name: B_witch_Frame_20
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 4
+      width: 193
+      height: 193
+    spriteID: c377fc6489d2e6e47bbbbd46a2a3de3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 4}
+  - name: B_witch_Frame_21
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 205
+      width: 193
+      height: 193
+    spriteID: e96740535e83972499a08de28a0b0ca2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 205}
+  - name: B_witch_Frame_22
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 406
+      width: 193
+      height: 193
+    spriteID: 6c4bde3b70861b14e86c6bba852804ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 406}
+  - name: B_witch_Frame_23
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 607
+      width: 193
+      height: 193
+    spriteID: daab5859655af3444a9af1bf893348e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 607}
+  - name: B_witch_Frame_24
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 808
+      width: 193
+      height: 193
+    spriteID: 2c5f33dc5a809414fbb7bca8158092ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 808}
+  - name: B_witch_Frame_25
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 1009
+      width: 193
+      height: 193
+    spriteID: fae3ccf4e1bd64d40a0966a71f4eb949
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 1009}
+  - name: B_witch_Frame_26
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 1210
+      width: 193
+      height: 193
+    spriteID: ae96cb961c26d5945aecf4109605222f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 1210}
+  - name: B_witch_Frame_27
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 1411
+      width: 193
+      height: 193
+    spriteID: f715b3ac0e8df424aaa5d27d0e906fe1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 1411}
+  - name: B_witch_Frame_28
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 1612
+      width: 193
+      height: 193
+    spriteID: dae7327794fc6634e9bea55644510727
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 1612}
+  - name: B_witch_Frame_29
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 1813
+      width: 193
+      height: 193
+    spriteID: d91020683c92d9c4bac32bf586f07ab9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 1813}
+  - name: B_witch_Frame_30
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 4
+      width: 193
+      height: 193
+    spriteID: 9b0724f4349a3ec49b06aade7979c4e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 4}
+  - name: B_witch_Frame_31
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 205
+      width: 193
+      height: 193
+    spriteID: 011fdddcbbfcb9f498ff91cf3e404378
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 205}
+  - name: B_witch_Frame_32
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 406
+      width: 193
+      height: 193
+    spriteID: 2fa8b33be0eb10747ac4404d139c6139
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 406}
+  - name: B_witch_Frame_33
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 607
+      width: 193
+      height: 193
+    spriteID: cf1344688a35aa64ca30cdbb6774aea8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 607}
+  - name: B_witch_Frame_34
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 808
+      width: 193
+      height: 193
+    spriteID: 4a70e354da7afc84286ec7696b2f1df4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 808}
+  - name: B_witch_Frame_35
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 1009
+      width: 193
+      height: 193
+    spriteID: 1bb637b2f39807148ab31210a789da4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 1009}
+  - name: B_witch_Frame_36
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 1210
+      width: 193
+      height: 193
+    spriteID: 7fdd921a1aca8b246ad60bf62a0ac0f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 1210}
+  - name: B_witch_Frame_37
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 1411
+      width: 193
+      height: 193
+    spriteID: 027a36c7310e4424981ed15e6e23052f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 1411}
+  - name: B_witch_Frame_38
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 1612
+      width: 193
+      height: 193
+    spriteID: 631e6db8747e6814b929322351c87cb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 1612}
+  - name: B_witch_Frame_39
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 1813
+      width: 193
+      height: 193
+    spriteID: 767f1af4d8072b44b9987ea985e4c35d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 1813}
+  - name: B_witch_Frame_40
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 808
+      y: 4
+      width: 193
+      height: 193
+    spriteID: c8e16d72b599dbe4d84d0b3284ba292e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 808, y: 4}
+  - name: B_witch_Frame_41
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 808
+      y: 205
+      width: 193
+      height: 193
+    spriteID: ef83f4399b4115e4098c30a5d60fe441
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 808, y: 205}
+  - name: B_witch_Frame_42
+    originalName: 
+    pivot: {x: 0.6450777, y: 0.34715027}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 808
+      y: 406
+      width: 193
+      height: 193
+    spriteID: ab899b0b6897bbf41a9cd398f7305201
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 808, y: 406}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1026481396
+    name: B_witch
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: B_witch_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: b7192862150c59f48b14a1a7dfff211a
+    - name: B_witch_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: ca2ae2973c61fe148ba83d067ece07e7
+    - name: B_witch_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 93aebeea5c7383547aa9018562c7c35b
+    - name: B_witch_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: be8b287f9512a4b449e09450b08edf46
+    - name: B_witch_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: ef71be854ae0d9f439a5d792223c5acb
+    - name: B_witch_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 1516e97548d121b4e9560da5a4d6f1d1
+    - name: B_witch_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 83e86ce12dd15f747b762fcc955b767b
+    - name: B_witch_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: b50f2fe83f8f3744a9810518d15d15b2
+    - name: B_witch_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 8b1d4710fec992f4b8ceb311fd1dfe73
+    - name: B_witch_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 8ccd7093b2acb2045a4083d389d88bc2
+    - name: B_witch_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: f0b0e5acbf1d11547beb8c716e6d7160
+    - name: B_witch_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: bd3539d70e4634d41a56377d761afa87
+    - name: B_witch_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: c97c22fd4c0b31349947b64b0ae40eca
+    - name: B_witch_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: c7911aa5a44a5214cac167e4ea36003b
+    - name: B_witch_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 1821017aeadb83046a4c809409ac3f53
+    - name: B_witch_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 290edeef6ecfd784ca092698dcb26283
+    - name: B_witch_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: c6a60d64bbbbda543bb1bc1f59ce6106
+    - name: B_witch_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: e7b1383a0434745449811ce2a9f4861c
+    - name: B_witch_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 57316c3ac48e71448aa22f67ec0b32a4
+    - name: B_witch_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 3d4d348115f493a479d335cb706ae38e
+    - name: B_witch_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: c377fc6489d2e6e47bbbbd46a2a3de3b
+    - name: B_witch_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: e96740535e83972499a08de28a0b0ca2
+    - name: B_witch_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 6c4bde3b70861b14e86c6bba852804ef
+    - name: B_witch_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: daab5859655af3444a9af1bf893348e2
+    - name: B_witch_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 2c5f33dc5a809414fbb7bca8158092ac
+    - name: B_witch_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: fae3ccf4e1bd64d40a0966a71f4eb949
+    - name: B_witch_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: ae96cb961c26d5945aecf4109605222f
+    - name: B_witch_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: f715b3ac0e8df424aaa5d27d0e906fe1
+    - name: B_witch_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: dae7327794fc6634e9bea55644510727
+    - name: B_witch_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: d91020683c92d9c4bac32bf586f07ab9
+    - name: B_witch_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 9b0724f4349a3ec49b06aade7979c4e0
+    - name: B_witch_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 011fdddcbbfcb9f498ff91cf3e404378
+    - name: B_witch_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 2fa8b33be0eb10747ac4404d139c6139
+    - name: B_witch_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: cf1344688a35aa64ca30cdbb6774aea8
+    - name: B_witch_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 4a70e354da7afc84286ec7696b2f1df4
+    - name: B_witch_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 1bb637b2f39807148ab31210a789da4e
+    - name: B_witch_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 7fdd921a1aca8b246ad60bf62a0ac0f8
+    - name: B_witch_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 027a36c7310e4424981ed15e6e23052f
+    - name: B_witch_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 631e6db8747e6814b929322351c87cb3
+    - name: B_witch_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: 767f1af4d8072b44b9987ea985e4c35d
+    - name: B_witch_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: c8e16d72b599dbe4d84d0b3284ba292e
+    - name: B_witch_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: ef83f4399b4115e4098c30a5d60fe441
+    - name: B_witch_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: -69
+        y: -67
+        width: 193
+        height: 193
+      spriteId: ab899b0b6897bbf41a9cd398f7305201
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 111, y: 48}

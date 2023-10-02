@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b00334576644946bd211d4e752c371, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  actorName: Witch character
+  description: Witch character
+  health: 50
+  maxHealth: 50
+  power: 60
+  actor: {fileID: 1029310560489468372, guid: d53971ac42f082249a6663eda1343fb5, type: 3}
+  actorSprite: {fileID: -1679401493, guid: 732a4d209eab6d341b79f873d30e8a6c, type: 3}
