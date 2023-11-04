@@ -16,6 +16,6 @@ MonoBehaviour:
   description: player default stats
   health: 50
   maxHealth: 50
-  power: 60
+  power: 5
   actor: {fileID: 6740603057467219802, guid: d0e321d402c7a44439d30e3162561d92, type: 3}
   actorSprite: {fileID: 595365613, guid: ac401ad0a1ea83a45a82ec90ba4b48ca, type: 3}

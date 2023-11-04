@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
@@ -50,13 +50,52 @@ public class BattleSystem : MonoBehaviour
     private GameObject enemy;
     private Timer timer;
     private EnemySpawner enemySpawner;
+
+    // biến dùng kiểm soát hành động của player, nếu onGoingAction = 1 player không được tương tác
     private int onGoingAction = 0;
+
+    void GetReferences()
+    {
+        loadScene_Script = GameObject.Find("PlayerActionPanel").GetComponent<LoadScene_script>();
+        playerHUD = GameObject.Find("PlayerHUD").GetComponent<BattleHUD>();
+        enemyHUD = GameObject.Find("EnemyHUD").GetComponent<BattleHUD>();
+        dialogueText = GameObject.Find("PlayerActionPanel").GetComponentInChildren<TMP_Text>();
+        timer = GameObject.Find("Timer").GetComponent<Timer>();
+        enemySpawner = GameObject.Find("EnemySpawner").GetComponent<EnemySpawner>();
+    }
+
+    IEnumerator SetupBattle()
+    {
+        onGoingAction = 1;
+        float delayTime = 0f;
+
+        player = GameObject.Find("Player");
+        playerUnit = player.GetComponent<BattleUnit>();
+        playerHUD.SetPlayerHUD(player.GetComponent<Player>());
+        playerUnit.Setup();
+        yield return new WaitForSeconds(delayTime);
+
+        enemy = GameObject.Find("Enemy");
+        enemyUnit = enemy.GetComponent<BattleUnit>();
+        enemyHUD.SetEnemyHUD(enemy.GetComponent<Enemy>());
+        enemyUnit.Setup();
+        //this looks like a mess but trust me it works =))
+        dialogueText.text = "Battle Begin";
+
+        //onGoingAction = 1;
+        yield return new WaitForSeconds(setupTime);
+
+        //onGoingAction = 0;
+        state = BattleState.PLAYERTURN;
+        PlayerTurn();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         state = BattleState.START;
         GetReferences();
+
         StartCoroutine(SetupBattle());
     }
 
@@ -69,16 +108,6 @@ public class BattleSystem : MonoBehaviour
             StartCoroutine(EnemyTurn());*/
             loadScene_Script.LoadScene(7);
         }
-    }
-
-    void GetReferences()
-    {
-        loadScene_Script = GameObject.Find("PlayerActionPanel").GetComponent<LoadScene_script>();
-        playerHUD = GameObject.Find("PlayerHUD").GetComponent<BattleHUD>();
-        enemyHUD = GameObject.Find("EnemyHUD").GetComponent<BattleHUD>();
-        dialogueText = GameObject.Find("PlayerActionPanel").GetComponentInChildren<TMP_Text>();
-        timer = GameObject.Find("Timer").GetComponent<Timer>();
-        enemySpawner = GameObject.Find("EnemySpawner").GetComponent<EnemySpawner>();
     }
 
     void SetUpNewEnemy()
@@ -98,31 +127,9 @@ public class BattleSystem : MonoBehaviour
         enemyUnit.Setup();
     }
 
-    IEnumerator SetupBattle()
-    {
-        float delayTime = 0f;
-        player = GameObject.Find("Player");
-        playerUnit = player.GetComponent<BattleUnit>();
-        playerHUD.SetPlayerHUD(player.GetComponent<Player>());
-        playerUnit.Setup();
-        yield return new WaitForSeconds(delayTime);
-        enemy = GameObject.Find("Enemy");
-        enemyUnit = enemy.GetComponent<BattleUnit>();
-        enemyHUD.SetEnemyHUD(enemy.GetComponent<Enemy>());
-        enemyUnit.Setup();
-        //this looks like a mess but trust me it works =))
-        dialogueText.text = "Battle Begin";
-
-        onGoingAction = 1;
-        yield return new WaitForSeconds(setupTime);
-
-        onGoingAction = 0;
-        state = BattleState.PLAYERTURN;
-        PlayerTurn();
-    }
-
     public void PlayerTurn()
     {
+        onGoingAction = 0;
         ActivatePlayerActionPanel();
         dialogueText.text = "Choose an action: ";
     }
@@ -243,6 +250,7 @@ public class BattleSystem : MonoBehaviour
         {
             Destroy(player);
         }
+
         //start the animation
         enemyUnit.PlayAttackAnimation();
         playerUnit.PlayHitAnimation();
@@ -305,6 +313,7 @@ public class BattleSystem : MonoBehaviour
         else
         {
             onGoingAction = 1;
+
             //action num 0 = player attack
             actionNum = 0;
 

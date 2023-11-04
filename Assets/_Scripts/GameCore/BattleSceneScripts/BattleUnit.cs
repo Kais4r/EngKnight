@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using DG.Tweening;
 
 public class BattleUnit : MonoBehaviour
@@ -28,6 +28,7 @@ public class BattleUnit : MonoBehaviour
     public void PlayEnterAnimation()
     {
         float moveDistance = 10f;
+        // thời gian cho animation vào màn hình của nhân vật di chuyển
         float duration = 1f;
 
         if (isPlayerUnit)
