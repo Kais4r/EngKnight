@@ -335,15 +335,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1769609973}
-        m_TargetAssemblyTypeName: LoadScene_script, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 3
+        m_TargetAssemblyTypeName: GlobalUIController, Assembly-CSharp
+        m_MethodName: LoadNewScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GameHall
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &409618169
@@ -808,15 +808,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1769609973}
-        m_TargetAssemblyTypeName: LoadScene_script, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 3
+        m_TargetAssemblyTypeName: GlobalUIController, Assembly-CSharp
+        m_MethodName: LoadNewScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 8
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Credit
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &890219271
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769609968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a77e4d1dd349ba44dbe800b02c578e68, type: 3}
+  m_Script: {fileID: 11500000, guid: 126444c8da8c00d4c8f962d3ba628565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1880326640
@@ -1706,8 +1706,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0070500076, y: 0.00009998679, z: 0}
-    m_Extent: {x: 0.99745, y: 0.75450003, z: 0}
+    m_Center: {x: -0.002649963, y: 0.006700009, z: 0}
+    m_Extent: {x: 1.0051501, y: 0.7463, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
