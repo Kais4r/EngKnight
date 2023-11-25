@@ -70,6 +70,6 @@ public class CharacterManager : MonoBehaviour
 
     public void ChangeScene()
     {
-        SceneManager.LoadScene("A1_battle_scene");
+        SceneManager.LoadScene("BattleScene");
     }
 }

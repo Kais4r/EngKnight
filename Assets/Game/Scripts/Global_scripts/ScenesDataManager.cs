@@ -8,6 +8,7 @@ public class ScenesDataManager : MonoBehaviour
 
     // create variable to pass data here
     public List<EnglishWord> englishWords = new List<EnglishWord>();
+    public string levelToStart = "";
 
     private void Awake()
     {
@@ -31,8 +32,8 @@ public class ScenesDataManager : MonoBehaviour
     }
     public int CheckIfWordExist(EnglishWord englishWord)
     {
-        bool reSult = englishWords.Exists(eW => eW.Name == englishWord.Name);
-        if (reSult)
+        bool result = englishWords.Exists(eW => eW.Name == englishWord.Name);
+        if (result)
         {
             return 1;
         }

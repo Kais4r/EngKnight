@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/GameScenes/1.GameHall/GameHall.unity
     guid: a5310f569ca888f489ee48f73a5425ac
   - enabled: 1
-    path: Assets/Game/Scenes/GameScenes/2.LevelSelect/LevelsSelect.unity
+    path: Assets/Game/Scenes/GameScenes/2.LevelSelect/LevelSelect.unity
     guid: 472a8619126bfc2488c506a6517f0e15
   - enabled: 1
-    path: Assets/Game/Scenes/GameScenes/3.CharacterSelection/CharacterSelection.unity
+    path: Assets/Game/Scenes/GameScenes/3.HeroSelect/HeroSelect.unity
     guid: ae4062df2da498b47ac095491b555f00
   - enabled: 1
-    path: Assets/Game/Scenes/LevelScenes/BattleScene.unity
+    path: Assets/Game/Scenes/LevelScenes/BattleScene/BattleScene.unity
     guid: 8a2ed2486f5d68b49af0f80fbc4b373a
   - enabled: 1
     path: Assets/Game/Scenes/UniversalScenes/Credit/Credit.unity

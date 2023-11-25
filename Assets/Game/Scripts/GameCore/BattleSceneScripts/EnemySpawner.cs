@@ -24,7 +24,7 @@ public class EnemySpawner : MonoBehaviour
             Debug.Log("there is no battle station");
         }*/
         enemyBattleStation = GameObject.Instantiate(enemyBattleStationPreb, Vector3.zero, Quaternion.identity);
-        enemyBattleStation.transform.position = new Vector3(-3.56f, 2.01f, 0);
+        enemyBattleStation.transform.position = new Vector3(-3.56f, 2.8f, 0);
         enemyBattleStation.transform.SetParent(this.transform);
         enemyBattleStation.name = enemyBattleStationPreb.name;
     }
