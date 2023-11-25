@@ -36,7 +36,7 @@ public class PlayerSpawner : MonoBehaviour
             Debug.Log("there is no player battle station");
         }*/
         playerBattleStation = GameObject.Instantiate(playerBattleStationPreb, Vector3.zero, Quaternion.identity);
-        playerBattleStation.transform.position = new Vector3(-6.18f, 2.8f, 0);
+        playerBattleStation.transform.position = new Vector3(-6.18f, 1.8f, 0);
         playerBattleStation.transform.SetParent(this.transform);
         playerBattleStation.name = playerBattleStationPreb.name;
     }
