@@ -8,16 +8,16 @@ public class GlobalUIController : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public void LoadLevelScene(string sceneName)
+    /*public void LoadLevelScene(string sceneName)
     {
 
-    }
+    }*/
 
-    public void Start()
+    /*public void Start()
     {
         if(SceneManager.GetActiveScene().name == "GameHall")
         {
             Debug.Log(SceneManager.GetActiveScene().name);
         }
-    }
+    }*/
 }
